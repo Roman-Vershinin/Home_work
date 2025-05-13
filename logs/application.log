@@ -13,3 +13,16 @@
 2025-05-13 00:09:28.902 [main] INFO  screens.MainScreen - Кнопка 'Пропустить' нажата в онбординге
 2025-05-13 00:09:30.938 [main] INFO  screens.MainScreen - Кнопка 'Войти' нажата
 2025-05-13 00:09:50.577 [main] INFO  screens.FormAuth - Логин ввелся
+2025-05-13 10:48:41.514 [main] INFO  base.BaseTest - Инициализация драйвера перед тестом
+2025-05-13 10:48:47.759 [main] INFO  driverConfig.Initializer - Драйвер успешно инициализирован
+2025-05-13 10:48:47.759 [main] INFO  base.BaseTest - Тест начинается
+2025-05-13 10:51:40.582 [main] INFO  base.BaseTest - Инициализация драйвера перед тестом
+2025-05-13 10:51:44.764 [main] INFO  driverConfig.Initializer - Драйвер успешно инициализирован
+2025-05-13 10:51:44.765 [main] INFO  base.BaseTest - Тест начинается
+2025-05-13 10:51:48.082 [main] INFO  screens.MainScreen - Кнопка 'Пропустить' нажата в онбординге
+2025-05-13 10:51:53.927 [main] INFO  screens.MainScreen - Кнопка 'Войти' нажата
+2025-05-13 10:52:12.827 [main] INFO  screens.FormAuth - Логин ввелся
+2025-05-13 10:52:13.515 [main] INFO  screens.FormAuth - Пароль ввелся
+2025-05-13 10:52:14.240 [main] INFO  screens.FormAuth - Кнопка 'Войти' нажалась на форме авторизации
+2025-05-13 10:52:18.917 [main] INFO  screens.MainScreen - Пользователь авторизован
+2025-05-13 10:52:18.918 [main] INFO  base.BaseTest - Драйвер выключен

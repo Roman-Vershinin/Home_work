@@ -1,5 +1,6 @@
 package authorization;
 
+import base.BaseTest;
 import io.appium.java_client.AppiumDriver;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
@@ -8,7 +9,7 @@ import screens.FormAuth;
 import screens.MainScreen;
 
 @Slf4j
-public class AuthorizationTest {
+public class AuthorizationTest extends BaseTest {
     protected static AppiumDriver driver;
 
     @Test
