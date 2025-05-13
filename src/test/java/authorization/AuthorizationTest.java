@@ -22,8 +22,8 @@ public class AuthorizationTest extends BaseTest {
                .skipOnboard()
                .clickOnEnter();
        formAuth
-               .inputLogin()
-               .inputPassword()
+               .inputLogin("base.user")
+               .inputPassword("base.user")
                .clickOnEnterInAuth();
 
        mainScreen
