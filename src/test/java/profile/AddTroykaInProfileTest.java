@@ -28,9 +28,5 @@ public class AddTroykaInProfileTest extends BaseTest {
                 .assertTroyka()
                 .deleteTroyka();
 
-
-
-
     }
-
 }

@@ -30,6 +30,4 @@ public class AuthorizationTest extends BaseTest {
                .assertBanner();
 
  }
-
-
 }

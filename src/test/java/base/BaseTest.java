@@ -26,5 +26,3 @@ public class BaseTest {
         Initializer.quitDriver();
     }
 }
-
-//

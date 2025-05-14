@@ -20,9 +20,5 @@ public class AddAvatarInProfileTest extends BaseTest {
             .choiceAvatarSource()
             .selectPhotoInPhone();
 
-
-
     }
-
-
 }

@@ -14,8 +14,5 @@ public class BannerMobileAppsAndServicesMoscowTest  extends BaseTest {
         mainScreen.skipOnboard();
         mainScreen.scrollToBanner();
         mainScreen.scrollAppsOnBanner();
-
-
     }
-
 }

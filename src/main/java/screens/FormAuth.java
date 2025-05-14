@@ -5,12 +5,9 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import locators.LocatorMain;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 import toolsConfig.ConfigTools;
 
-import java.util.Properties;
 
 @Slf4j
 public class FormAuth extends BaseScreen  {

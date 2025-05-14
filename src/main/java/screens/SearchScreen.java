@@ -6,9 +6,7 @@ import locators.LocatorSearch;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 
-import java.util.Properties;
 
 @Slf4j
 public class SearchScreen extends BaseScreen{
