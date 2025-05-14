@@ -14,7 +14,7 @@ public class LocatorMain {
     public static final String TEXT_MOBILE_APPS_XPATH = "//android.widget.TextView[@resource-id=\"text_banner_title\"]";
     public static final String APP_XPATH = "(//android.view.View[@resource-id=\"img_app_icon\"])[6]";
     public static final String RUSTORE_XPATH = "//android.widget.Image[@text=\"RuStore\"]";
-    public static final String FAMILY_XPATH = "//android.widget.TextView[@resource-id=\"tv_sphere_name\" and @text=\"Дом\"]";
+    public static final String FAMILY_XPATH = "//android.widget.TextView[@resource-id=\"tv_sphere_name\" and @text=\"Семья\"]";
     public static final String BUTTON_ALL_XPATH = "//android.widget.TextView[@resource-id=\"text_all\"]";
     public static final String ICON_APP_XPATH = "//android.widget.TextView[@resource-id=\"text_title\" and @text=\"Russpass\"]";
 }

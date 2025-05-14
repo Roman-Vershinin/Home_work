@@ -59,10 +59,7 @@ public class FormAuth extends BaseScreen  {
 
         return this;
     }
-    public void authData(String login, String password) {
-        this.login = login;
-        this.password = password;
-    }
+
 
     @AndroidFindBy(xpath = LocatorMain.PASSWORD_XPATH)
     private WebElement inputPas;

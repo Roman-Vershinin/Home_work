@@ -97,11 +97,20 @@ public class MainScreen extends BaseScreen {
 
         verticalSwipe(iconApp);
         iconApp.click();
-        // остановился на этом методе (проверки отображения элементов на странице,вместо Assert)
-
         elementsIsDisplayed(ruStore);
-//        Assert.assertTrue(ruStore.getText().contains("RuStore"));
-//        log.info("Перешли в рустор");
+
+        return this;
+    }
+
+    @AndroidFindBy(xpath = LocatorMain.FAMILY_XPATH)
+    private WebElement familySphereOfLife;
+
+    public MainScreen clickOnFamilySphereOfLife() throws InterruptedException {
+        pageFactory(driver);
+
+        verticalSwipe(familySphereOfLife);
+        waitUntilElementIsVisible(familySphereOfLife);
+        familySphereOfLife.click();
 
         return this;
     }
